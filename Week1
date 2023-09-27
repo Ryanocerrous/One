@@ -1,0 +1,17 @@
+print("Hello World")
+print("    /|")
+print("   / |")
+print("  /  |")
+print(" /___|")
+
+# input celsius degree temperature
+celsius_temp = 38.4
+# converting celsius degree temperature to Fahrenheit
+fahrenheit_temp =celsius_temp*1.8+32
+# printing the Fahrenheit equivalent of the given input celsius degree
+print("The Fahrenheit equivalent of", celsius_temp)
+print("is =", fahrenheit_temp)
+
+Mile_length = 1
+Kilometer_length =Mile_length*1.6
+print("Length of 1 mile in Kilometres is =", Kilometer_length)
