@@ -1,0 +1,36 @@
+age = 10 + 20
+age = age + 5
+print(age)
+
+print("the age value is", age)
+
+result = 20
+
+x= 10
+type(x)
+print(x)
+
+name = "Ryan_Hardman"
+print (name)
+
+name = 'Hello, is your name "Bwian"?'
+print (name)
+
+name = "Hello, is your name 'Bwian'?"
+print (name)
+
+print ("this is a string containing a backslash (\) \na single quote ('),\n" 'a double quote (")\nand is split across multiple lines')
+
+print ("""this is a string containing a backslash (\),\na single quote ('),\na double quote (")\nand is split across multiple lines""")
+
+# input celsius degree temperature
+fahrenheit = float(input("enter temperature in fahrenheit: "))
+# converting celsius degree temperature to Fahrenheit
+celsius_temp =(fahrenheit-32) *5/9
+# printing the Fahrenheit equivalent of the given input celsius degree
+print("The Fahrenheit equivalent of", celsius_temp,"fahrenheit")
+print("is =", celsius_temp, "celsius")
+
+a = float(input("Enter value of 'a'"))
+b = float(input("Enter value of 'b'"))
+print("the value 'a' was", a,"and the value 'b' was", b,)
