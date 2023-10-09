@@ -23,6 +23,40 @@ print ("this is a string containing a backslash (\) \na single quote ('),\n" 'a 
 
 print ("""this is a string containing a backslash (\),\na single quote ('),\na double quote (")\nand is split across multiple lines""")
 
+total = 100
+print("the total is", total)
+total = total + 99
+print("the total is now", total)
+
+total = 100
+total += 99
+print("the total is now", total)
+
+total -= 1
+print("the total is", total)
+
+total *= 4
+print("the total is", total)
+
+total /= 2
+print("the total is", total)
+
+print(type(False))
+print(type(1000))
+print(type(100.11))
+print(type("Hello"))
+print(type(True))
+print(type(100 / 5))
+print(type(100 // 5))
+
+print(10+10)
+print("10"+"10")
+print("ABC"*10)
+
+
+
+
+
 # input celsius degree temperature
 fahrenheit = float(input("enter temperature in fahrenheit: "))
 # converting celsius degree temperature to Fahrenheit
