@@ -9,3 +9,5 @@
 4. Success! I'll try once more... 
 
 5. Final test to show I know clone/commit/add/push.
+
+6. Completed test.
