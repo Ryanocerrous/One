@@ -1,1 +1,91 @@
+age = 10 + 20
+age = age + 5
+print(age)
 
+print("the age value is", age)
+
+result = 20
+
+x= 10
+type(x)
+print(x)
+
+name = "Ryan_Hardman"
+print (name)
+
+name = 'Hello, is your name "Bwian"?'
+print (name)
+
+name = "Hello, is your name 'Bwian'?"
+print (name)
+
+print ("this is a string containing a backslash (\) \na single quote ('),\n" 'a double quote (")\nand is split across multiple lines')
+
+print ("""this is a string containing a backslash (\),\na single quote ('),\na double quote (")\nand is split across multiple lines""")
+
+total = 100
+print("the total is", total)
+total = total + 99
+print("the total is now", total)
+
+total = 100
+total += 99
+print("the total is now", total)
+
+total -= 1
+print("the total is", total)
+
+total *= 4
+print("the total is", total)
+
+total /= 2
+print("the total is", total)
+
+print(type(False))
+print(type(1000))
+print(type(100.11))
+print(type("Hello"))
+print(type(True))
+print(type(100 / 5))
+print(type(100 // 5))
+
+print(10+10)
+print("10"+"10")
+print("ABC"*10)
+
+########## PORTFOLIO TWO ##############
+#1
+
+
+
+
+
+#2
+
+celsius_temperature = float(input("what is the temperature?"))
+
+# Input temperature in Celsius
+print(celsius_temperature)
+
+# Convert Celsius to Fahrenheit
+fahrenheit_temperature = (celsius_temperature *1.8) + 32
+
+# Display both temperatures
+print(celsius_temperature,"degrees Celsius is equal to", fahrenheit_temperature, "degrees Fahrenheit",)
+
+# input celsius degree temperature
+fahrenheit = float(input("enter temperature in fahrenheit: "))
+# converting celsius degree temperature to Fahrenheit
+celsius_temp =(fahrenheit-32) *5/9
+# printing the Fahrenheit equivalent of the given input celsius degree
+print("The Fahrenheit equivalent of", celsius_temp,"fahrenheit")
+print("is =", celsius_temp, "celsius")
+
+
+
+
+
+
+a = float(input("Enter value of 'a'"))
+b = float(input("Enter value of 'b'"))
+print("the value 'a' was", a,"and the value 'b' was", b,)
